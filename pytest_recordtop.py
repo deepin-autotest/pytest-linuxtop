@@ -12,12 +12,10 @@ def pytest_addoption(parser):
     group.addoption(
         '--top',
         action='store',
-        dest='dest_foo',
+        dest='top',
         default='',
         help='过程中记录top命令中的值'
     )
-
-    parser.addini('HELLO', 'Dummy pytest.ini setting')
 
 
 def pytest_sessionstart(session):
