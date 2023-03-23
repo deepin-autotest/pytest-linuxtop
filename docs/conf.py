@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# pytest-recordtop documentation build configuration file, created by
+# pytest-linuxtop documentation build configuration file, created by
 # sphinx-quickstart on Thu Oct  1 00:43:18 2015.
 #
 # This file is execfile()d with the current directory set to its
@@ -48,8 +48,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'pytest-recordtop'
-copyright = '2015, mikigo'
+project = 'pytest-linuxtop'
+copyright = '2023, mikigo'
 author = 'mikigo'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -254,7 +254,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'pytest-cookiecutterplugin_name', 'pytest-recordtop Documentation',
+    (master_doc, 'pytest-cookiecutterplugin_name', 'pytest-linuxtop Documentation',
      [author], 1)
 ]
 
@@ -268,7 +268,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'pytest-cookiecutterplugin_name', 'pytest-recordtop Documentation',
+  (master_doc, 'pytest-cookiecutterplugin_name', 'pytest-linuxtop Documentation',
    author, 'pytest-cookiecutterplugin_name', 'One line description of project.',
    'Miscellaneous'),
 ]

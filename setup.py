@@ -12,17 +12,17 @@ def read(fname):
 
 
 setup(
-    name='pytest-recordtop',
+    name='pytest-linuxtop',
     version='0.1.0',
     author='mikigo',
     author_email='1964191531@qq.com',
     maintainer='mikigo',
     maintainer_email='1964191531@qq.com',
     license='Apache Software License 2.0',
-    url='https://github.com/mikigo/pytest-recordtop',
+    url='https://github.com/mikigo/pytest-linuxtop',
     description='Record the value of the top command during case execution',
     long_description=read('README.rst'),
-    py_modules=['pytest_recordtop'],
+    py_modules=['pytest_linuxtop'],
     python_requires='>=3.5',
     install_requires=['pytest>=3.5.0'],
     classifiers=[
@@ -44,7 +44,7 @@ setup(
     ],
     entry_points={
         'pytest11': [
-            'recordtop = pytest_recordtop',
+            'linuxtop = pytest_linuxtop',
         ],
     },
 )

@@ -1,4 +1,4 @@
-# pytest-recordtop
+# pytest-linuxtop
 用例执行过程中记录 top 命令中的值。
 ## 使用方法
 

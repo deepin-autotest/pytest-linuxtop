@@ -8,7 +8,7 @@ top_cmd = "top -b -d 3 -w 512"
 
 
 def pytest_addoption(parser):
-    group = parser.getgroup('recordtop')
+    group = parser.getgroup('linuxtop')
     group.addoption(
         '--top',
         action='store',

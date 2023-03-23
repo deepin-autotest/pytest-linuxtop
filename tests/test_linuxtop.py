@@ -31,7 +31,7 @@ def test_help_message(testdir):
     )
     # fnmatch_lines does an assertion internally
     result.stdout.fnmatch_lines([
-        'recordtop:',
+        'linuxtop:',
         '*--foo=DEST_FOO*Set the value for the fixture "bar".',
     ])
 
